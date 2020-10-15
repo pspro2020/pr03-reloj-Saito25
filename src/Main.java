@@ -1,6 +1,4 @@
 import classes.Clock;
-
-import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -10,7 +8,7 @@ public class Main {
 
         threadClock.start(); // Iniciamos el hilo.
 
-       TimeUnit.SECONDS.sleep(5); // Nos echamos a dormir.
+       TimeUnit.SECONDS.sleep(12); // Nos echamos a dormir.
 
         threadClock.interrupt(); // Interrumpimos al hilo.
 
